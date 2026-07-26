@@ -2,3 +2,49 @@ baseURL = 'http://47.115.137.219/'
 locale = 'zh-cn'
 title = 'Hello-World'
 theme = 'PaperMod'
+
+
+[params]
+  # ... 你其他的配置 ...
+  [params.footer]
+    hideCopyright = true  # 保持版权信息不显示
+    text = "[粤ICP备2026054124号-1](https://beian.miit.gov.cn/#/Integrated/index)"  # 这里写你的备案信息
+
+[menus]
+  [[menus.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+
+  [[menus.main]]
+    identifier = "archive"
+    name = "Archive"
+    pageRef = "/archive"
+    weight = 20
+
+  [[menus.main]]
+    identifier = "search"
+    name = "Search"
+    pageRef = "/search"
+    weight = 30
+
+  [[menus.main]]
+    identifier = "tags"
+    name = "Tags"
+    pageRef = "/tags"
+    weight = 40
+	
+  [[menus.main]]
+    identifier = "categories"
+    name = "Categories"
+    pageRef = "/categories"
+    weight = 50   # 调整显示顺序
+
+# 配置参数说明
+# [[menus.main]]：表示向名为 main 的菜单添加一个条目，PaperMod 主题默认读取这个菜单。
+# identifier：菜单项的唯一标识符，用于区分不同项目。
+# name：在导航栏上显示的文字。
+# pageRef：重要！ 指向你将要创建的具体页面，比如 /about、/archive 等。
+# weight：控制菜单项的显示顺序，数字越小越靠前。
+# 注意：使用 pageRef 而不是 url 是更推荐的做法，能避免一些潜在问题。	
