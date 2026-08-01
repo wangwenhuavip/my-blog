@@ -1,4 +1,4 @@
-baseURL = 'http://47.115.137.219/'
+baseURL = 'https://wenhua23.com/'
 locale = 'zh-cn'
 title = 'Hello-World'
 theme = 'PaperMod'
