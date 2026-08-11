@@ -7,7 +7,9 @@ theme = 'PaperMod'
 [params]
   # ... 你其他的配置 ...
   ShowToc = true      # 是否显示目录
-  TocOpen = false     # 是否默认展开目录 (false 表示默认折叠)	
+  TocOpen = true     # 是否默认展开目录 (false 表示默认折叠)	
+  disableCodeCopy = false # 代码块右上角复制按钮
+  ShowCodeCopyButtons = true
   
   [params.footer]
     hideCopyright = true  # 保持版权信息不显示
