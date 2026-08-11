@@ -1,7 +1,10 @@
 +++
 date = '2026-08-11T23:31:16+08:00'
-draft = true
+draft = false
+tags = ["VMware虚拟机","Windows11",]
+categories = ["技术"]
 title = '配置windows11虚拟机'
+
 +++
 
 

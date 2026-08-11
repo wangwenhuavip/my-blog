@@ -1,7 +1,11 @@
 +++
 date = '2026-08-02T13:28:11+08:00'
-draft = true
+draft = false
+tags = ["搭建网站","Hugo","GithubActions","阿里云ECS"]
+
+categories = ["技术"]
 title = '搭建网站'
+
 +++
 
 # 搭建基本框架

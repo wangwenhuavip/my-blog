@@ -1,7 +1,13 @@
 +++
 date = '2026-08-02T20:18:07+08:00'
-draft = true
+draft = false
+tags = ["VMware虚拟机","数据库"]
+categories = ["技术"]
+
 title = 'Oracle Plsql 程序设计'
+
+
+
 +++
 
 PL/SQL  
