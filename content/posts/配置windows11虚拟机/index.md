@@ -76,7 +76,7 @@ Windows 11对硬件有严格要求，需要在虚拟机中模拟支持，以下�
 
 ### 6. 总结
 
-- [微软官方下载页面](微软官方下载页面)，下载 Windows 11 的ISO镜像
+- [Windows11微软官方下载页面](https://www.microsoft.com/software-download/windows11)，下载 Windows 11 的ISO镜像
 - VMware® Workstation 专业版 26H1
 - 安装虚拟机时，宿主机断网
 - **安装时要求联网/微软账户**：这是新版本的强制要求。如果想跳过，可以在提示联网时，按 `Shift + F10` 打开命令提示符，输入 `OOBE\BYPASSNRO` 后回车，系统重启后即可选择“我没有Internet连接”。
