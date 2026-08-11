@@ -79,7 +79,7 @@ docker run -d \
 -p 1521:1521 -p 5500:5500 \
 -e ORACLE_SID=ORCLCDB \
 -e ORACLE_PDB=ORCLPDB1 \
--e ORACLE_PWD=zsynchc@WH23 \
+-e ORACLE_PWD=<你的密码> \
 -e ORACLE_EDITION=standard \
 -e ORACLE_CHARACTERSET=AL32UTF8 \
 -v D:/software_data/Docker_data/oracle19c/oradata:/opt/oracle/oradata \
